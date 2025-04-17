@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table border="1" style="margin: 10px;">
+        <tr>
+            <th>th1</th>
+            <th>th2</th>
+        </tr>
+        <tr>
+            <td>td1</td>
+            <td>td2</td>
+            <td>td3</td>
+        </tr>
+    </table>
+
+    <table border="1" style="margin: 10px;">
+        <thead>
+            <tr>
+                <th>th1</th>
+                <th>th2</th>
+                <th>th3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>td1</td>
+                <td>td2</td>
+                <td rowspan="2">td3</td>
+            </tr>
+            <tr>
+                <td>td11</td>
+                <td>td22</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">tfoot</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <form action="" method="post">
+        <input type="password"> 
+        <input type="checkbox" name="text-box1" id="">
+        <input type="file" name="" id="">
+        <input name="inputRadio1" type="radio" value="js" id="js">
+        <label for="js">JS</label> 
+        <input name="inputRadio1" type="radio" value="html" id="html"> <!-- name no radio indica quais radios sao da mesma "familia", OU SEJA, dentre todos com o mesmo name, so da para marcar apenas 1 radio -->
+        <label for="html">HTML</label>
+        <select name="estados" id="est">
+            <option value="valor1"> valor1</option>
+            <option value="value2">VAlue2 </option>
+        </select>
+</body>
+</html>
